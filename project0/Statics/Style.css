@@ -57,6 +57,7 @@ header{
         background-size: cover;
         background-position: 95%;
         background-image: url("https://images4.alphacoders.com/115/1151246.jpg");
+        justify-content: flex-start;
     }
 }
 /* vista mobile para el header */
@@ -65,5 +66,6 @@ header{
         background-size: cover;
         background-position: 55%;
         background-image: url("https://mfiles.alphacoders.com/966/966162.jpg");
+        justify-content: flex-start;
     }
 }
