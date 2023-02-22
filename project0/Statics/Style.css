@@ -123,4 +123,19 @@ header{
     }
   }
 
-/*  */
+/* Tabla de noticias */
+.news{
+    margin: 20px 0px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
