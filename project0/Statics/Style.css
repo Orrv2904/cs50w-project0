@@ -95,12 +95,14 @@ header{
     font-size: 24px;
     font-weight: 600;
     color: #333;
+    font-family: 'BalooChettan', sans-serif;
 }
 
 .card-text{
     margin-bottom: 22px;
     font-size: 16px;
     color: #666;
+    font-family: 'BalooTammudu', sans-serif;
 }
 
 .btn-primary{
@@ -109,6 +111,7 @@ header{
     color: whitesmoke;
     font-weight: 600;
     border-radius: 20px;
+    font-family: 'Baloo Bhai', sans-serif;
 }
 
 .btn-primary:hover {
@@ -149,15 +152,24 @@ th, td{
 th{
     background-color: #333;
     color: #ffff;
+    font-family: 'Baloo Da', sans-serif;
+    font-size: 20px;
 }
 
 td a{
     display: block;
     color: #252627;
+    font-family: 'Baloo Da', sans-serif;
+}
+
+td{
+    font-family: 'Baloo Da', sans-serif;
 }
 
 h2{
     margin-bottom: 20px;
+    font-family: 'Baloo Tamma', sans-serif;
+    padding: 0px 10px;
 }
 
 /* Imagen de la noticia */
@@ -178,8 +190,6 @@ h2{
 
 @media (max-width: 600px){
     .imgnews img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
