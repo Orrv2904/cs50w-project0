@@ -132,6 +132,61 @@ header{
     }
   }
 
+  /* Galeria */
+
+  .gal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #galeria{
+    display: flex;
+    width: 85rem;
+    height: 450px;
+  }
+
+  #galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .7;
+    transition: .8s ease;
+  }
+
+  #galeria img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+  @media (max-width: 768px){
+    .gal{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .gale{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .gale{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .gale img{
+        display: inline-block;
+        max-width: 100%;
+        margin: 0px;
+    }
+  }
+
 /* Tabla de noticias */
 .news{
     margin: 20px 0px;
