@@ -76,7 +76,7 @@ header{
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
     transition: 0.3s;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: white;
 }
 
@@ -110,3 +110,17 @@ header{
     border-color: #0f5aac;
     color: white;
   }
+
+  /* Espacio entre la seccion de noticias y en header */
+  .news{
+    margin-top: 45px;
+  }
+
+  /* media query's de las noticias */
+  @media (max-width: 600px){
+    .news{
+        margin-top: 20px;
+    }
+  }
+
+/*  */
