@@ -149,3 +149,7 @@ td a{
     display: block;
     color: #252627;
 }
+
+h2{
+    margin-bottom: 20px;
+}
