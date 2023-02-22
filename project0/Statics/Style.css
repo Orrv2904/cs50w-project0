@@ -85,7 +85,6 @@ header{
     object-fit: cover;
 }
 
-
 .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -246,5 +245,52 @@ h2{
 @media (max-width: 600px){
     .imgnews img{
         object-fit: contain;
+    }
+}
+
+/* Video antes del footer */
+
+.video{
+    background-color: #252627;
+    display: block;
+}
+
+.video-titulo{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;  
+}
+
+.videoplay{
+    display: grid;
+    place-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.video-mobil{
+    background-color: #252627;
+    display: block;
+}
+
+.video-titulo-mobil{
+    color: #fff;
+    text-align: center;
+}
+
+.videoplay-mobil{
+    display: grid;
+    place-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);  
+}
+
+@media screen and (min-width: 769px){
+    .video-mobil{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .video{
+        display: none;
     }
 }

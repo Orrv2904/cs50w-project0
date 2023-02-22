@@ -110,17 +110,50 @@
     <!-- Galeria a mostrar en mobile -->
 
     <section class="gale">
-        <img src="https://images3.alphacoders.com/600/600925.jpg" alt="DS3">
-        <img src="https://images8.alphacoders.com/532/532407.jpg" alt="The Last og Ust">
-        <img src="https://images8.alphacoders.com/800/800487.png" alt="Nier Automata">
-        <img src="https://images2.alphacoders.com/434/434500.jpg" alt="B4">
-        <img src="https://images7.alphacoders.com/109/1097565.jpg" alt="Blasphemous">
-        <img src="https://images8.alphacoders.com/864/864351.png" alt="Super Mario Odyssey">
+        <div id="carousel" class="carousel slide shadow" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="4"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images3.alphacoders.com/600/600925.jpg" class="d-block w-100" alt="DS3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images8.alphacoders.com/532/532407.jpg" class="d-block w-100" alt="The Last og Ust">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images8.alphacoders.com/800/800487.png" class="d-block w-100" alt="Nier Automata">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images2.alphacoders.com/434/434500.jpg" class="d-block w-100" alt="B4">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images7.alphacoders.com/109/1097565.jpg" class="d-block w-100" alt="Blasphemous">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images8.alphacoders.com/864/864351.png" class="d-block w-100" alt="Super Mario Odyssey">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
+        </div>
     </section>
+
 
     <!-- Tabla de noticias y contenido -->
     <section class="news" id="tablenews">
-      <h2>Noticias</h2>
+      <h2>Noticias Destacadas</h2>
       <table>
         <thead>
           <tr>
@@ -149,8 +182,31 @@
             <td><a href="#">Nuevos MacBook Pro y Mac Mini con procesadores M2, M2 Pro y M2 Max son anunciados por Apple</a></td>
             <td>Nuevos chips y nuevas computadoras.</td>
           </tr>
+          <tr>
+            <td class="imgnews"><img src="https://images4.alphacoders.com/709/709451.jpg" alt="HxH-Killua & Gon"></td>
+            <td>1 mes</td>
+            <td><a href="#">Avatar: El Camino del Agua ha superado a Titanic</a></td>
+            <td>Ahora es la tercera película más taquillera de todos los tiempos</td>
+          </tr>
         </tbody>
       </table>
+    </section>
+
+    <!-- video  -->
+    <section class="video">
+      <h2 class="video-titulo"><br>Kirby’s Return to Dream Land Deluxe estrena Demo de 15 minutos!</h2>
+      <div class="videoplay">
+        <iframe width="960" height="715" src="https://www.youtube.com/embed/eiyXquOJVRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+      </div>
+    </section>
+
+    <!-- video mobile -->
+    <section class="video-mobil">
+      <h2 class="video-titulo-mobil"><br>Kirby’s Return to Dream Land Deluxe estrena Demo de 15 minutos!</h2>
+      <div class="videoplay-mobil">
+        <iframe width="360" height="315" src="https://www.youtube.com/embed/eiyXquOJVRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        <br>
+      </div>
     </section>
 
     <!-- Bootstrap JS link -->
