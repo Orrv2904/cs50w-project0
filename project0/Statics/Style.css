@@ -139,3 +139,13 @@ th, td{
     vertical-align: middle;
     border-bottom: 1px solid #ddd;
 }
+
+th{
+    background-color: #333;
+    color: #ffff;
+}
+
+td a{
+    display: block;
+    color: #252627;
+}
