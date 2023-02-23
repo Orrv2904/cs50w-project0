@@ -109,6 +109,10 @@ header{
     font-family: 'BalooTammudu', sans-serif;
 }
 
+#more {
+    display: none;
+}
+
 .btn-primary{
     background-color: #007bff;
     border-color: #007bff;
