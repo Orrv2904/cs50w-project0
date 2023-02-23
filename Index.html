@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="/Statics/Style.css">
+    <link rel="stylesheet" href="/Statics/css/Style.css">
     <!-- Font link -->
     <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
     <!-- Favicon -->
@@ -63,9 +63,9 @@
             <div class="card">
               <img src="https://sm.ign.com/t/ign_latam/screenshot/default/wild-hearts-review_7z4x.800.jpg" class="card-img-top" alt="Wild Hearts Game">
               <div class="card-body">
-                <h5 class="card-title">Wild Hearts</h5>
-                <p class="card-text">¿Realmente llegó un nuevo rival para Monster Hunter? Averígualo en nuestra reseña.</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
+                <h5 class="card-title">Wild Hearts</h5>                
+                <p class="card-text">¿Realmente llegó un nuevo rival para Monster Hunter? Averígualo en nuestra reseña<span id="dots1">...</span><span id="more1">. Desde que se anunció Wild Hearts llamó la atención que su concepto lucía muy parecido al de la serie Monster Hunter de Capcom, pero también porque sonaba interesante la idea de ver un juego de este tipo desarrollado por el equipo de Omega Force, reconocido estudio a cargo de la serie Dynasty Warriors.</span></p>  
+                <button type="button" class="btn btn-primary" onclick="Ver_mas1()" id="myBtn1">Ver más</button> 
               </div>
             </div>
           </div>
@@ -73,9 +73,9 @@
             <div class="card">
               <img src="https://cdn-hogwartslegacy.warnerbrosgames.com/media/screen-14.jpg" class="card-img-top" alt="New Hogwarts Legacy">
               <div class="card-body">
-                <h5 class="card-title">Hogwarts Legacy - Reseña</h5>
-                <p class="card-text">Una obra maestra y una carta de amor a quienes crecimos con el sueño de algún día recibir nuestra carta de Hogwarts</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
+                <h5 class="card-title">Hogwarts Legacy - Reseña</h5>                
+                <p class="card-text">Hogwarts Legacy ya está aquí y es mucho más espectacular de lo que yo podría haber imaginado<span id="dots2">...</span><span id="more2">. Como en la historia de Harry Potter, los amigos que hacemos en esta aventura son nuestro mayor apoyo, algunos te acompañarán en ciertas misiones y te ayudarán a perfeccionar tus habilidades.</span></p>  
+                <button type="button" class="btn btn-primary" onclick="Ver_mas2()" id="myBtn2">Ver más</button> 
               </div>
             </div>
           </div>
@@ -84,28 +84,44 @@
               <img src="https://img.youtube.com/vi/KydqdKKyGEk/sddefault.jpg" class="card-img-top" alt="Mario Bros, the movie">
               <div class="card-body">
                 <h5 class="card-title">The Super Mario Bros</h5>
-                <p class="card-text">El nuevo comercial de Super Mario Bros. La Película es un anuncio para Super Mario Bros. Plumbing</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
+                <p class="card-text">El nuevo comercial de Super Mario Bros. La Película es un anuncio para Super Mario Bros<span id="dots3">...</span><span id="more3">. La más reciente pieza de marketing de The Super Mario Bros. La Película es especial, ya que no solo es un anuncio de Super Mario Bros. Plumbing, sino que también es un homenaje a la clásica canción de introducción de la serie live-action The Super Mario Bros. Super Show!.</span></p>  
+                <button type="button" class="btn btn-primary" onclick="Ver_mas3()" id="myBtn3">Ver más</button> 
               </div>
             </div>
           </div>
-
-          <!-- prueba -->
           <div class="col-md-4">
             <div class="card">
-              <img src="https://img.youtube.com/vi/KydqdKKyGEk/sddefault.jpg" class="card-img-top" alt="Mario Bros, the movie">
+              <img src="https://sm.ign.com/t/ign_latam/screenshot/default/tlu_nm6p.1280.png" class="card-img-top" alt="Mario Bros, the movie">
               <div class="card-body">
-                <h5 class="card-title">The Super Mario Bros</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>  
-                <button type="button" class="btn btn-primary" onclick="Ver_mas()" id="myBtn">Read more</button>              
-                <!-- <a href="#" class="btn btn-primary">Ver más</a> -->
+                <h5 class="card-title">The Last of Us de HBO Ep-6</h5>
+                <p class="card-text">Joel finalmente se encuentra con Tommy y acepta su misión en el mundo<span id="dots4">...</span><span id="more4">. Ya vamos a la mitad de la historia principal en The Last of Us y prácticamente Joel y Ellie han experimentando un montón de cosas difíciles y que los han forjado y unido, sobre todo la tragedia del pequeño Sam y su hermano Henry.</span></p>  
+                <button type="button" class="btn btn-primary" onclick="Ver_mas4()" id="myBtn4">Ver más</button>              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://sm.ign.com/t/ign_latam/screenshot/default/ps5-xboxseriesx_pnyh.1280.jpg" class="card-img-top" alt="Mario Bros, the movie">
+              <div class="card-body">
+                <h5 class="card-title">¡Microsoft habla!</h5>
+                <p class="card-text">Reconoce que PlayStation le gana a Xbox, revela que PlayStation tiene el 70% del mercado global<span id="dots5">...</span><span id="more5">. El presidente de Microsoft comentó que estas cifras han sido más o menos las mismas durante dos décadas y agregó que incluso con los problemas en la cadena de suministros del año pasado, en Sony tuvieron un gran volumen de ventas.</span></p>  
+                <button type="button" class="btn btn-primary" onclick="Ver_mas5()" id="myBtn5">Ver más</button>              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://sm.ign.com/t/ign_latam/news/g/google-ann/google-announces-bard-a-chatbot-rival-to-chatgpt_sen3.280.jpg" class="card-img-top" alt="Mario Bros, the movie">
+              <div class="card-body">
+                <h5 class="card-title">Google en problemas</h5>
+                <p class="card-text">La ola de despidos tecnológicos continúa, Google anunció que despedirá a 12 000 empleados<span id="dots6">...</span><span id="more6">, el CEO Sundar Pichai anunció los despidos en una publicación de blog, diciendo que Google los había "contratado previamente para una realidad económica diferente a la que enfrentamos hoy" y que los trabajos se eliminarían en una variedad de departamentos diferentes.</span></p>  
+                <button type="button" class="btn btn-primary" onclick="Ver_mas6()" id="myBtn6">Ver más</button>              
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>  
     </section>
-
 
  <!-- Galeria de imagenes -->
 
@@ -313,7 +329,7 @@
     <!-- Bootstrap JS link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- Ver mas js link -->
-    <script src="./Statics/Vermas.js"></script>
+    <script src="/Statics/js/Vermas.js"></script>
   </body>
 
 <footer>
