@@ -24,8 +24,9 @@ body{
 }
 
 .prueba span:hover{
-    display: none;
+    display: none; 
 }
+
 .nav-link{
     color: rgb(190, 25, 25);
 }
