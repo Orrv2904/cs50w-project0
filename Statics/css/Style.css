@@ -5,7 +5,7 @@
 
 *{
     scroll-behavior: smooth;
-    transition: 2s all ease;
+    transition: 1s all ease;
 }
 
 body{
@@ -342,4 +342,32 @@ h2{
     .video{
         display: none;
     }
+}
+
+.btn-lg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+
+.dev{
+    background-color: #252627;
+    padding: 50px;
+}
+
+.orrv{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c7cece;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.orrv span{
+    color: #c7cece;
+}
+
+#nosotros{
+    margin-bottom: 15px;
 }

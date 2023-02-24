@@ -11,7 +11,9 @@
     <!-- Font link -->
     <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/Images/icono.ico">
+    <link rel="shortcut icon" href="/Statics/Images/icono.ico">
+    <!-- Bootstrap iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <title>TechGameFreak</title>
 </head>
@@ -45,10 +47,10 @@
                 <a class="nav-link" href="#reviews">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tablenews">Noticias</a>
+                <a class="nav-link" href="#tabla_compu">Noticias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="#nosotros">Nosotros</a>
               </li>
             </ul>
           </div>
@@ -308,7 +310,6 @@
       </table>
     </section>
 
-
     <!-- video  -->
     <section class="video">
       <h2 class="video-titulo"><br>Kirby’s Return to Dream Land Deluxe estrena Demo de 15 minutos!</h2>
@@ -332,9 +333,44 @@
     <script src="/Statics/js/Vermas.js"></script>
   </body>
 
-<footer>
+  <!-- Footer -->
 
+<footer id="nosotros">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <h2 class="text-primary mb-4">Acerca de</h2>
+        <p class="mb-4">Síguenos en nuestras redes:</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#nosotros"></a><i class="bi bi-github fs-4"></i></li>
+          <li class="list-inline-item"><a href="#nosotros"><i class="bi bi-discord fs-4"></i></a></li>
+          <li class="list-inline-item"><a href="#nosotros"><i class="bi bi-linkedin fs-4"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="text-primary mb-4">Contáctanos</h2>
+        <form action="#" method="POST">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nombre" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Correo electrónico" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" placeholder="Mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" class="btn_footer">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </footer>
+
+<section class="dev">
+  <div class="orrv">
+    Desarrollado por <a href="https://github.com/Orrv2904"><b>Omarrv2904</b></a> para <span><b>Web50xNi</b></span>
+  </div>
+</section>
 
 
 </html>
