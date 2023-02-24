@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/pixel-bit');
+@import url('https://fonts.cdnfonts.com/css/orbitron');
+
+
+header {
+	background-color: #202020;
+	color: white;
+	padding: 20px;
+    height: 85vh;
+    min-height: 100px;
+    background-size: cover;
+    background-position: 0% 99%;
+    background-image: url('https://images7.alphacoders.com/121/1214933.jpg');
+    filter: grayscale(50%);
+    align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+.navbar-nav{
+    color: black;
+    font-size: 30px;
+   /* font-family: 'Gotham Light', sans-serif;*/
+    font-family: 'Pixel Bit', sans-serif;
+}
+
+.fw-bold{
+    color: black;
+    font-size: 35px;
+    /*font-family: 'Gotham', sans-serif;*/
+    font-family: 'Orbitron', sans-serif;
+                                                
+}
+
+.prueba span:hover{
+    display: none; 
+}
+
+.nav-link{
+    color: rgb(190, 25, 25);
+}
+
