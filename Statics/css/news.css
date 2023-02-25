@@ -60,6 +60,27 @@ header{
     justify-content: flex-end;
 }
 
+/* Media query para el header */
+/* tablet */
+@media (max-width: 768px){
+  header{
+      background-size: cover;
+      background-position: 95%;
+      background-image: url("https://images2.alphacoders.com/116/1169015.jpg");
+      justify-content: flex-start;
+  }
+}
+/* vista mobile para el header */
+@media (max-width: 600px){
+  header{
+      background-size: cover;
+      background-position: 55%;
+      background-image: url("https://mfiles.alphacoders.com/966/966162.jpg");
+      justify-content: flex-start;
+  }
+}
+
+
 .titulo{
     display: grid;
     place-items: center;
