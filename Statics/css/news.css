@@ -1,28 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/pixel-bit');
 @import url('https://fonts.cdnfonts.com/css/orbitron');
+@import url('https://fonts.cdnfonts.com/css/baloo-tamma');
 
-
-header {
-	background-color: #202020;
-	color: white;
-	padding: 20px;
-    height: 85vh;
-    min-height: 100px;
-    background-size: cover;
-    background-position: 0% 99%;
-    background-image: url('https://images7.alphacoders.com/121/1214933.jpg');
-    filter: grayscale(50%);
-    align-content: flex-end;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+*{
+    scroll-behavior: smooth;
+    transition: 1s all ease;
 }
 
+.bd{
+    background-color: #c7cece;
+}
 
-
-header h1 {
-	margin: 0;
-	font-size: 36px;
+#navnews{
+    font-size: 35px;
 }
 
 .navbar-nav{
@@ -33,7 +23,7 @@ header h1 {
 }
 
 .fw-bold{
-    color: black;
+    color: #252627;
     font-size: 35px;
     /*font-family: 'Gotham', sans-serif;*/
     font-family: 'Orbitron', sans-serif;
@@ -48,3 +38,112 @@ header h1 {
     color: rgb(190, 25, 25);
 }
 
+#nv{
+    color: rgb(190, 25, 25);
+}
+
+#nv:hover{
+    color: black;
+}
+
+
+header{
+    height: 85vh;
+    min-height: 100px;
+    background-size: cover;
+    background-position: 40%;
+    background-image: url('https://images2.alphacoders.com/116/1169015.jpg');
+    filter: grayscale(70%);
+    align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.titulo{
+    display: grid;
+    place-items: center;
+    font-family: 'Baloo Tamma', sans-serif;
+    color: #F7F9F9;
+}
+
+/* pagina */
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 1000px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444444;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+  }
+
+  a {
+    color: #0077ff;
+  }
+
+  a:hover {
+    color: #004499;
+  }
+
+  .n_p{
+    text-align: justify;
+  }
+
+  
+  .news-item {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .news-item h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .news-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .news-item a {
+    color: #e63946;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .twit {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dev{
+    background-color: #252627;
+    padding: 15px;
+}
+
+.orrv{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c7cece;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.orrv span{
+    color: #c7cece;
+}
