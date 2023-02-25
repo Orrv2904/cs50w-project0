@@ -125,7 +125,6 @@ header{
   .news-item {
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
   }
   
@@ -167,4 +166,22 @@ header{
 
 .orrv span{
     color: #c7cece;
+}
+
+/* Subir */
+
+.subir{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.subir a{
+display: block;
+width: 50px;
+height: 50px;
+color: rgb(190, 25, 25);
+text-align: center;
+font-size: 2rem;
 }
