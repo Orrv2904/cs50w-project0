@@ -304,6 +304,10 @@ h2{
     display: block;
 }
 
+iframe{
+    margin-bottom: 20px;
+}
+
 .video-titulo{
     color: #fff;
     text-align: center;
@@ -343,6 +347,8 @@ h2{
         display: none;
     }
 }
+
+/* footer */
 
 .btn-lg{
     display: flex;
