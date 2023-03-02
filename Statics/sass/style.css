@@ -4,6 +4,39 @@
 /*Elementos SASS*/
 /*Variables*/
 /*Herencia*/
+/*Anidamiento en la lista del indice*/
+ol {
+  list-style-type: decimal;
+  font-size: 18px;
+  font-family: "Orbitron", sans-serif;
+  color: #333;
+}
+ol li {
+  margin: 10px 0;
+  position: relative;
+}
+ol li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 14px;
+  height: 14px;
+  background-color: #333;
+  border-radius: 50%;
+}
+ol li:last-child {
+  margin-bottom: 0;
+}
+ol li a {
+  color: #333;
+  text-decoration: none;
+}
+ol li a:hover {
+  color: #666;
+}
+
 /*Elementos CSS*/
 * {
   scroll-behavior: smooth;
