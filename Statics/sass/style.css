@@ -3,7 +3,6 @@
 @import url("https://fonts.cdnfonts.com/css/baloo-tamma");
 /*Elementos SASS*/
 /*Variables*/
-/*Herencia*/
 /*Anidamiento en la lista del indice*/
 ol {
   list-style-type: decimal;
@@ -35,6 +34,49 @@ ol li a {
 }
 ol li a:hover {
   color: #666;
+}
+
+/*Herencia*/
+.news2, .news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.hend, h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+.news-item2, .news-item {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.news-item2 h2, .news-item h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.news-item2 p, .news-item p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.news-item2 a, .news-item a {
+  color: #e63946;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.n_p2, .n_p {
+  text-align: justify;
 }
 
 /*Elementos CSS*/
@@ -129,20 +171,6 @@ header {
 }
 
 /* pagina */
-.news {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 50px auto;
-  max-width: 1000px;
-}
-
-h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #444444;
-}
-
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -155,34 +183,6 @@ a {
 
 a:hover {
   color: #004499;
-}
-
-.n_p {
-  text-align: justify;
-}
-
-.news-item {
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 30px;
-}
-
-.news-item h1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.news-item p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.news-item a {
-  color: #e63946;
-  font-weight: bold;
-  text-decoration: none;
 }
 
 .twit {
