@@ -177,20 +177,57 @@ ol li a:hover {
 /* Media query para el header */
 /* tablet */
 @media (max-width: 768px) {
-  header {
+  #home {
+    background-size: cover;
+    background-position: 50%;
+    justify-content: flex-start;
+    filter: grayscale(70%);
+  }
+  #home2 {
     background-size: cover;
     background-position: 95%;
-    background-image: url("https://images2.alphacoders.com/116/1169015.jpg");
+    background-image: url("https://images7.alphacoders.com/457/457534.jpg");
     justify-content: flex-start;
+    filter: grayscale(70%);
+  }
+  #home5 {
+    background-size: cover;
+    background-position: 55%;
+    justify-content: flex-start;
+    filter: grayscale(70%);
   }
 }
 /* vista mobile para el header */
 @media (max-width: 600px) {
-  header {
+  #home {
     background-size: cover;
-    background-position: 55%;
+    background-position: 95%;
     background-image: url("https://mfiles.alphacoders.com/966/966162.jpg");
     justify-content: flex-start;
+    filter: grayscale(70%);
+  }
+  #home2 {
+    background-size: cover;
+    background-position: 55%;
+    background-image: url("https://mfiles.alphacoders.com/828/828286.jpg");
+    justify-content: flex-start;
+    filter: grayscale(70%);
+  }
+  #home3 {
+    background-size: cover;
+    background-position: 45%;
+    justify-content: flex-start;
+    filter: grayscale(70%);
+  }
+  #home5 {
+    background-size: cover;
+    background-position: 55%;
+    background-image: url("https://mfiles.alphacoders.com/634/634663.jpg");
+    justify-content: flex-start;
+    filter: grayscale(70%);
+  }
+  .titulo2 h1 {
+    color: #fff;
   }
 }
 .titulo {
