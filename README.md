@@ -7,7 +7,7 @@ Esta es una página de noticias relacionada a la tecnología, gaming y series o 
 ## ¿Como esta divida?
 
 * Una página principal (Index).
-* 5 páginas extras donde se habla de las noticias mas a detalle.
+* 5 páginas extras donde se habla de las noticias más a detalle.
 
 ### Requisitos
 
@@ -32,7 +32,7 @@ Esta página se realizo tomando en cuenta los requerimientos solicitados por el 
 ### Más en detalle
 
 En la estructura completa del sitio se uso <b>HTML</b>, <b>CSS</b> para darle un estilo personalizado a cada una de las etiquetas y elementos de la página, <b>SASS</b> 
-para obtener un código de estilo mas claro y legible, <b>JavaScript</b> se utilizo para hacer que las tarjetas de la Landing Page no se llenara de tanto texto, usando la propiedad `style.display === "none"` para ocultar parte del texto de la tarjeta y mostrarlo al tocar un botón, haciendo uso de id's, solamente fue con propositos de estética.
+para obtener un código de estilo mas claro y legible, <b>JavaScript</b> se utilizo para hacer que las tarjetas de la Landing Page no se llenara de tanto texto, usando la propiedad `style.display === "none"` y `style.display = "inline"` para ocultar y mostrar parte del texto de la tarjeta y mostrarlo al tocar un botón, haciendo uso de id's, solamente fue con propositos de estética.
 
 ### Proceso
 
