@@ -201,10 +201,10 @@ ol li a:hover {
 @media (max-width: 600px) {
   #home {
     background-size: cover;
+    filter: grayscale(70%);
     background-position: 95%;
     background-image: url("https://mfiles.alphacoders.com/966/966162.jpg");
     justify-content: flex-start;
-    filter: grayscale(70%);
   }
   #home2 {
     background-size: cover;
