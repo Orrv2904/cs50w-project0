@@ -20,6 +20,11 @@ $Ocultar_cosas: none;
 $centro: center;
 $colorp: #666666;
 
+.navegacion{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 /*Anidamiento en la lista del indice*/
 ol {
     list-style-type: decimal;
@@ -103,6 +108,24 @@ ol {
     text-align: justify;
 }
 
+%headers{
+  height: 85vh;
+    min-height: 100px;
+    background-size: cover;
+    background-position: 40%;
+    filter: grayscale(70%);
+    align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+%titulos-header{
+  display: grid;
+  place-items: $centro;
+  font-family: 'Baloo Tamma', sans-serif;
+}
+
 /*Elementos CSS*/
 
 *{
@@ -158,17 +181,29 @@ ol {
     color: $colorblack;
 }
 
-header{
-    height: 85vh;
-    min-height: 100px;
-    background-size: cover;
-    background-position: 40%;
+#home{
+    @extend %headers;
     background-image: url('https://images2.alphacoders.com/116/1169015.jpg');
-    filter: grayscale(70%);
-    align-content: flex-end;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+}
+
+#home2{
+  @extend %headers;
+  background-image: url('https://images7.alphacoders.com/457/457534.jpg');
+}
+
+#home3{
+  @extend %headers;
+  background-image: url('https://images6.alphacoders.com/123/1238644.jpg');
+}
+
+#home4{
+  @extend %headers;
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/03/11/20/macbook-1711344_1280.jpg');
+}
+
+#home5{
+  @extend %headers;
+  background-image: url('https://sm.ign.com/t/ign_latam/news/a/avatar-the/avatar-the-way-of-water-has-passed-titanic-and-is-now-the-th_jjzc.1280.jpg');
 }
 
 /* Media query para el header */
@@ -192,10 +227,18 @@ header{
 }
 
 .titulo{
-    display: grid;
-    place-items: $centro;
-    font-family: 'Baloo Tamma', sans-serif;
+    @extend %titulos-header;
     color: #F7F9F9;
+}
+
+.titulo2{
+  @extend %titulos-header;
+  color: #252627;
+}
+
+.titulo3{
+  @extend %titulos-header;
+  color: #fff;
 }
 
 /* pagina con extend */
@@ -226,7 +269,7 @@ header{
   }
 
   .news2{
-    @extend %noticias;
+    @extend %noticias; 
   }
 
   .n_p2{
@@ -309,4 +352,77 @@ height: 50px;
 color: $colors_nav;
 text-align: $centro;
 font-size: 2rem;
+}
+
+#imgnew{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img_nw {
+  position: relative;
+	display: inline-block;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.img_nw:hover img{
+  transform: scale(1.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.img_nw img {
+  display: block;
+	width: 100%;
+	height: auto;
+	transition: transform 0.3s ease-in-out;
+}
+.img_nw p {
+  position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 20px;
+	font-weight: bold;
+	color: #222;
+	text-align: center;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.comparacion {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.comparacion h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+.comparacion ul {
+  margin: 10px;
+  padding: 0 0 0 30px;
+  list-style-type: disc;
+}
+.comparacion li {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #444;
+}
+.comparacion p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #777;
 }

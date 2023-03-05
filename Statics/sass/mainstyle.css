@@ -1,0 +1,20 @@
+@import url("https://fonts.cdnfonts.com/css/orbitron");
+footer {
+  background-color: #c7cece;
+  color: #fff;
+  padding: 50px 0;
+}
+footer p {
+  font-size: 14px;
+  margin: 0;
+  color: black;
+  font-family: "Orbitron", sans-serif;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul li a {
+  color: black;
+  font-size: 24px;
+}/*# sourceMappingURL=mainstyle.css.map */
