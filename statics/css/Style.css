@@ -40,7 +40,7 @@ header{
     min-height: 100px;
     background-size: cover;
     background-position: 40%;
-    background-image: url('statics/images/header-img/home/header-home.jpg');
+    background-image: url('https://images4.alphacoders.com/115/1151246.jpg');
     filter: grayscale(50%);
     align-content: flex-end;
     display: flex;
@@ -61,7 +61,7 @@ header{
     header{
         background-size: cover;
         background-position: 95%;
-        background-image: url("./statics/images/header-img/home/header-home.jpg");
+        background-image: url("https://images4.alphacoders.com/115/1151246.jpg");
         justify-content: flex-start;
     }
 }
@@ -70,7 +70,7 @@ header{
     header{
         background-size: cover;
         background-position: 55%;
-        background-image: url("./statics/images/header-img/home/header-home-mobile.jpg");
+        background-image: url("https://mfiles.alphacoders.com/947/947381.jpg");
         justify-content: flex-start;
     }
 }
