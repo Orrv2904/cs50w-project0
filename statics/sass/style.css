@@ -155,23 +155,23 @@ ol li a:hover {
 }
 
 #home {
-  background-image: url("/Statics/Images/header-img/header-news/news1/1169015.jpg");
+  background-image: url("./statics/images/header-img/header-news/news1/1169015.jpg");
 }
 
 #home2 {
-  background-image: url("/Statics/Images/header-img/header-news/news2/457534.jpg");
+  background-image: url("./statics/images/header-img/header-news/news2/457534.jpg");
 }
 
 #home3 {
-  background-image: url("/Statics/Images/header-img/header-news/news3/1238644.jpg");
+  background-image: url("./statics/images/header-img/header-news/news3/1238644.jpg");
 }
 
 #home4 {
-  background-image: url("/Statics/Images/header-img/header-news/news4/macbook-1711344_1280.jpg");
+  background-image: url("./statics/images/header-img/header-news/news4/macbook-1711344_1280.jpg");
 }
 
 #home5 {
-  background-image: url("/Statics/Images/header-img/header-news/news5/avatar-the-way-of-water-has-passed-titanic-and-is-now-the-th_jjzc.1280.webp");
+  background-image: url("./statics/images/header-img/header-news/news5/avatar-the-way-of-water-has-passed-titanic-and-is-now-the-th_jjzc.1280.webp");
 }
 
 /* Media query para el header */
