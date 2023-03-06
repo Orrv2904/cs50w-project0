@@ -19,6 +19,11 @@ body{
     font-family: 'Pixel Bit', sans-serif;
 }
 
+.navbar-fixed-top.scrolled {
+    background-color: #252627 !important;
+    transition: background-color 200ms linear;
+  }
+
 .fw-bold{
     color: black;
     font-size: 35px;
@@ -114,8 +119,8 @@ header{
 }
 
 .btn-primary{
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: rgb(190, 25, 25);
+    border-color: rgb(190, 25, 25);
     color: whitesmoke;
     font-weight: 600;
     border-radius: 20px;
@@ -123,8 +128,8 @@ header{
 }
 
 .btn-primary:hover {
-    background-color: #1160b4;
-    border-color: #0f5aac;
+    background-color: #252627;
+    border-color: #252627;
     color: white;
   }
 

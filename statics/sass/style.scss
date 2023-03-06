@@ -148,6 +148,11 @@ ol {
     font-family: $font1;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #252627 !important;
+  transition: background-color 200ms linear;
+}
+
 .fw-bold{
     color: $graycolor;
     font-size: $bold_size;

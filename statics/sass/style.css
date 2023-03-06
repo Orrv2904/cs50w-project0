@@ -123,6 +123,11 @@ ol li a:hover {
   font-family: "Pixel Bit", sans-serif;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #252627 !important;
+  transition: background-color 200ms linear;
+}
+
 .fw-bold {
   color: #252627;
   font-size: 35px;
