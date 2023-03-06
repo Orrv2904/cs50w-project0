@@ -40,7 +40,7 @@ header{
     min-height: 100px;
     background-size: cover;
     background-position: 40%;
-    background-image: url('./statics/images/header-img/home/header-home.jpg');
+    background-image: url('../statics/images/header-img/home/header-home.jpg');
     filter: grayscale(50%);
     align-content: flex-end;
     display: flex;
