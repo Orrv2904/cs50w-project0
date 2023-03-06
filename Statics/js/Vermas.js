@@ -100,3 +100,4 @@ function Ver_mas1() {
       moreText.style.display = "inline";
     }
   }
+  
