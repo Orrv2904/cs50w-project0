@@ -153,6 +153,22 @@ ol {
   transition: background-color 200ms linear;
 }
 
+@media (max-width: 768px) {
+  #nav-bg {
+    background-color: #c7cece;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #nav-bg {
+    position: absolute;
+    right: 0;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+
 .fw-bold{
     color: $graycolor;
     font-size: $bold_size;
