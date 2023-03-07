@@ -40,6 +40,23 @@ body{
     color: rgb(190, 25, 25);
 }
 
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: #c7cece;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+
+
 header{
     height: 85vh;
     min-height: 100px;
