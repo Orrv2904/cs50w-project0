@@ -164,33 +164,44 @@ header{
 
   /* Galeria */
 
-  .gal{
+  .gal {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-  #galeria{
+  
+  #galeria {
     display: flex;
     width: 50rem;
     height: 450px;
   }
-
-  #galeria img{
+  
+  #galeria > img {
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .7;
     transition: .8s ease;
   }
-
-  #galeria img:hover{
+  
+  #galeria > img:hover {
     cursor: crosshair;
     width: 350px;
     opacity: 1;
     filter: contrast(120%);
   }
-
+  
+  #galeria > img:first-child {
+    width: 50px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  
+  #galeria > img:hover + img {
+    width: 50px;
+    opacity: .7;
+  }
+  
   @media (max-width: 768px){
     .gal{
         display: none;
@@ -218,45 +229,42 @@ header{
   }
 
 /* Tabla de noticias */
-.news{
-    margin: 20px 0px;
-}
-
-table{
+.news table {
     width: 100%;
     border-collapse: collapse;
-}
-
-th, td{
+    }
+    
+    .news th,
+    .news td {
     padding: 10px;
     text-align: left;
     vertical-align: middle;
     border-bottom: 1px solid #ddd;
-}
-
-th{
+    }
+    
+    .news th {
     background-color: #333;
     color: #ffff;
     font-family: 'Baloo Da', sans-serif;
     font-size: 20px;
-}
-
-td a{
+    }
+    
+    .news td a {
     display: block;
     color: #252627;
     font-family: 'Baloo Da', sans-serif;
-}
-
-td{
+    }
+    
+    .news td {
     font-family: 'Baloo Da', sans-serif;
-}
-
-h2{
+    }
+    
+    .news h2 {
     margin-bottom: 20px;
     font-family: 'Baloo Tamma', sans-serif;
     padding: 0px 10px;
     margin-top: 20px;
-}
+    }
 
 /* tabla de noticias solo para telefono */
 
